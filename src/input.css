@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply h-72 w-full overflow-hidden relative rounded-t-md shadow-lg;
+}
+.card .title {
+  @apply absolute bottom-0 bg-gray-700 opacity-50 w-full py-1 px-2 font-bold;
+}
+.badge {
+  @apply absolute top-0 text-lg font-semibold bg-black bg-opacity-50 text-yellow-500 py-2 px-3 rounded-full m-2;
+}
+.btn {
+  @apply cursor-pointer border-primary border-2 py-2 px-3 rounded-lg hover:bg-primary hover:text-white;
+}
